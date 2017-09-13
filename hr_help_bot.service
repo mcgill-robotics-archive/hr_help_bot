@@ -1,0 +1,13 @@
+[Unit]
+Description=HR Help Bot
+
+[Service]
+Type=simple
+User=robotics
+Group=robotics
+WorkingDirectory=/home/robotics/hr_help_bot
+ExecStart=/usr/bin/node app.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

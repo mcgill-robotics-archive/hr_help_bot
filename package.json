@@ -1,0 +1,31 @@
+{
+  "name": "hr-help-bot",
+  "version": "0.1.0",
+  "description": "A bot to help other anonymously post on HR Helpdesk.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcgill-robotics/hr_help_bot.git"
+  },
+  "author": "Bei Chen Liu",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.2",
+    "express": "^4.15.4",
+    "jshint": "^2.9.5",
+    "request": "^2.72.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/mcgill-robotics/hr_help_bot/issues"
+  },
+  "homepage": "https://github.com/mcgill-robotics/hr_help_bot#readme"
+}
